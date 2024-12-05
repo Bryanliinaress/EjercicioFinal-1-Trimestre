@@ -1,0 +1,115 @@
+html{
+    width: 100%;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+div{
+    content: normal;
+    background-color: rgb(238, 239, 240);
+    width: 400px;
+    height: 450px;
+    border: solid 1px rgb(238, 237, 237);
+    border-radius: 15px;
+    margin: 10px;
+    align-content: center;
+    padding: 10px;
+    box-shadow:  0px 0px 5px   rgb(160, 158, 158);
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #E2C755;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
+#Ubicacion{
+    border: 0px;
+    box-shadow: 0px;
+    text-align: left;
+}
+#paginaSeleccionada{
+    color: rgba(72, 255, 0, 0.678);
+}
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: #0e4cf5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav{
+    size: 100%;
+    background-color: rgb(78, 125, 197);
+    align-content: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: wrap;
+
+}
+nav li{
+    padding-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgba(72, 255, 0, 0.678);
+}
+header{
+    width: 100%;
+    background-image: url(img/descarga.gif);
+    background-size: contain;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+body{
+    width: 100%;
+    background-size: contain;
+    background-image: url(img/wp1823427-inazuma-eleven-wallpapers.png) ;
+    margin: 0;
+}
+#subscripcion{
+    padding-bottom: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
